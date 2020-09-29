@@ -186,8 +186,9 @@ section {
 .logoimage {
   opacity: 1;
   display: block;
-  width: auto;
-  height: 60px;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -215,5 +216,5 @@ section {
   background-color: #80808000;
   color: black;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 24px;
 }
